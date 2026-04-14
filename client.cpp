@@ -43,6 +43,7 @@ int main(int argc, char const* argv[])
     printf("Hello message sent\n");
     valread = read(client_fd, buffer, 1024);
     printf("%s\n", buffer);
+    printf("%s\n", buffer);
   
     // closing the connected socket
     close(client_fd);
